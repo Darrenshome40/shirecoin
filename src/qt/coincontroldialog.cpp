@@ -525,7 +525,7 @@ void CoinControlDialog::updateLabels(CCoinControl& m_coin_control, WalletModel *
     }
 
     // actually update labels
-    int nDisplayUnit = ShirecoinUnits::BTC;
+    int nDisplayUnit = ShirecoinUnits::SHIRE;
     if (model && model->getOptionsModel())
         nDisplayUnit = model->getOptionsModel()->getDisplayUnit();
 

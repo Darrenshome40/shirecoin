@@ -153,7 +153,7 @@ bool parseShirecoinURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!ShirecoinUnits::parse(ShirecoinUnits::BTC, i->second, &rv.amount))
+                if(!ShirecoinUnits::parse(ShirecoinUnits::SHIRE, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -186,7 +186,7 @@ QString formatShirecoinURI(const SendCoinsRecipient &info)
 
     if (info.amount)
     {
-        ret += QString("?amount=%1").arg(ShirecoinUnits::format(ShirecoinUnits::BTC, info.amount, false, ShirecoinUnits::separatorNever));
+        ret += QString("?amount=%1").arg(ShirecoinUnits::format(ShirecoinUnits::SHIRE, info.amount, false, ShirecoinUnits::separatorNever));
         paramCount++;
     }
 

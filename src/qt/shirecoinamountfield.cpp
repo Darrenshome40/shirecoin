@@ -122,7 +122,7 @@ public:
 
             const QFontMetrics fm(fontMetrics());
             int h = lineEdit()->minimumSizeHint().height();
-            int w = GUIUtil::TextWidth(fm, ShirecoinUnits::format(ShirecoinUnits::BTC, ShirecoinUnits::maxMoney(), false, ShirecoinUnits::separatorAlways));
+            int w = GUIUtil::TextWidth(fm, ShirecoinUnits::format(ShirecoinUnits::SHIRE, ShirecoinUnits::maxMoney(), false, ShirecoinUnits::separatorAlways));
             w += 2; // cursor blinking space
 
             QStyleOptionSpinBox opt;
@@ -148,7 +148,7 @@ public:
     }
 
 private:
-    int currentUnit{ShirecoinUnits::BTC};
+    int currentUnit{ShirecoinUnits::SHIRE};
     CAmount singleStep{CAmount(100000)}; // satoshis
     mutable QSize cachedMinimumSizeHint;
     bool m_allow_empty{true};

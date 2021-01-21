@@ -15,9 +15,9 @@ ShirecoinUnits::ShirecoinUnits(QObject *parent):
 QList<ShirecoinUnits::Unit> ShirecoinUnits::availableUnits()
 {
     QList<ShirecoinUnits::Unit> unitlist;
-    unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    unitlist.append(SHIRE);
+    unitlist.append(mSHIRE);
+    unitlist.append(uSHIRE);
     unitlist.append(SAT);
     return unitlist;
 }
@@ -26,9 +26,9 @@ bool ShirecoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BTC:
-    case mBTC:
-    case uBTC:
+    case SHIRE:
+    case mSHIRE:
+    case uSHIRE:
     case SAT:
         return true;
     default:
@@ -40,9 +40,9 @@ QString ShirecoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BTC");
-    case mBTC: return QString("mBTC");
-    case uBTC: return QString::fromUtf8("µBTC (bits)");
+    case SHIRE: return QString("SHIRE");
+    case mSHIRE: return QString("mSHIRE");
+    case uSHIRE: return QString::fromUtf8("µSHIRE (bits)");
     case SAT: return QString("Satoshi (sat)");
     default: return QString("???");
     }
@@ -52,7 +52,7 @@ QString ShirecoinUnits::shortName(int unit)
 {
     switch(unit)
     {
-    case uBTC: return QString::fromUtf8("bits");
+    case uSHIRE: return QString::fromUtf8("bits");
     case SAT: return QString("sat");
     default: return longName(unit);
     }
@@ -62,9 +62,9 @@ QString ShirecoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Shirecoins");
-    case mBTC: return QString("Milli-Shirecoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Shirecoins (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case SHIRE: return QString("Shirecoins");
+    case mSHIRE: return QString("Milli-Shirecoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uSHIRE: return QString("Micro-Shirecoins (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     case SAT: return QString("Satoshi (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
@@ -74,9 +74,9 @@ qint64 ShirecoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BTC: return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case SHIRE: return 100000000;
+    case mSHIRE: return 100000;
+    case uSHIRE: return 100;
     case SAT: return 1;
     default: return 100000000;
     }
@@ -86,9 +86,9 @@ int ShirecoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case SHIRE: return 8;
+    case mSHIRE: return 5;
+    case uSHIRE: return 2;
     case SAT: return 0;
     default: return 0;
     }
