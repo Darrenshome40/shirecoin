@@ -7,7 +7,7 @@ Source: https://github.com/shirecoin/shirecoin
 Files: *
 Copyright: 2009-2020, Shirecoin Core Developers
 License: Expat
-Comment: The Shirecoin Core Developers encompasses the current developers listed on shirecoin.org,
+Comment: The Bitcoin Core developers encompasses the current developers listed on shirecoin.org,
          as well as the numerous contributors to the project.
 
 Files: debian/*

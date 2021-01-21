@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 The Shirecoin Core developers
+// Copyright (c) 2018-2019 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -27,7 +27,7 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Shirecoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core developers"
 
 /* Replacement for %s in copyright holders string */
 #define COPYRIGHT_HOLDERS_SUBSTITUTION "Shirecoin Core"
