@@ -29,7 +29,7 @@ packages:
 - "python3-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/shirecoin/shirecoin.git"
+- "url": "https://github.com/tricron/shirecoin.git"
   "dir": "shirecoin"
 files:
 - "MacOSX10.14.sdk.tar.gz"

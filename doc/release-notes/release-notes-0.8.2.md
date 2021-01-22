@@ -5,7 +5,7 @@ This is a maintenance release that fixes many bugs and includes
 a few small new features.
 
 Please report bugs using the issue tracker at github:
-  https://github.com/shirecoin/shirecoin/issues
+  https://github.com/tricron/shirecoin/issues
 
 
 How to Upgrade

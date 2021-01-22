@@ -3,11 +3,11 @@
 ## Supported Versions
 
 See our website for versions of Shirecoin Core that are currently supported with
-security updates: https://shirecoincore.org/en/lifecycle/#schedule
+security updates: https://shirecoin.com/en/lifecycle/#schedule
 
 ## Reporting a Vulnerability
 
-To report security issues send an email to security@shirecoincore.org (not for support).
+To report security issues send an email to security@shirecoin.com (not for support).
 
 The following keys may be used to communicate sensitive information to developers:
 

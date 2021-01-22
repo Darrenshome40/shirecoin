@@ -1,7 +1,7 @@
 Shirecoin Core integration/staging tree
 =====================================
 
-https://shirecoincore.org
+https://shirecoin.com
 
 What is Shirecoin?
 ----------------
@@ -13,8 +13,8 @@ out collectively by the network. Shirecoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately usable, binary version of
-the Shirecoin Core software, see https://shirecoincore.org/en/download/, or read the
-[original whitepaper](https://shirecoincore.org/shirecoin.pdf).
+the Shirecoin Core software, see https://shirecoin.com/en/download/, or read the
+[original whitepaper](https://shirecoin.com/shirecoin.pdf).
 
 License
 -------
@@ -26,7 +26,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/shirecoin/shirecoin/tags) are created
+completely stable. [Tags](https://github.com/tricron/shirecoin/tags) are created
 regularly to indicate new official, stable release versions of Shirecoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
