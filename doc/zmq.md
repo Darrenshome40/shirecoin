@@ -78,7 +78,7 @@ The high water mark value must be an integer greater than or equal to 0.
 
 For instance:
 
-    $ shirecoind -zmqpubhashtx=tcp://127.0.0.1:27332 \
+    $ shirecoind -zmqpubhashtx=tcp://127.0.0.1:28332 \
                -zmqpubrawtx=ipc:///tmp/shirecoind.tx.raw \
                -zmqpubhashtxhwm=10000
 
