@@ -63,7 +63,7 @@ class ZMQTest (ShirecoinTestFramework):
         # Invalid zmq arguments don't take down the node, see #17185.
         self.restart_node(0, ["-zmqpubrawtx=foo", "-zmqpubhashtx=bar"])
 
-        address = 'tcp://127.0.0.1:28332'
+        address = 'tcp://127.0.0.1:27332'
         socket = self.ctx.socket(zmq.SUB)
         socket.set(zmq.RCVTIMEO, 60000)
 
