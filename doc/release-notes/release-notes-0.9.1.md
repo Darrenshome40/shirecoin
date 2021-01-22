@@ -13,7 +13,7 @@ hostile hosts.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/tricron/shirecoin/issues
+  https://github.com/shirecoin/shirecoin/issues
 
 How to Upgrade
 --------------

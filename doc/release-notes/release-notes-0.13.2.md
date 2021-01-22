@@ -7,11 +7,11 @@ performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/tricron/shirecoin/issues>
+  <https://github.com/shirecoin/shirecoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://shirecoin.com/en/list/announcements/join/>
+  <https://shirecoincore.org/en/list/announcements/join/>
 
 Compatibility
 ==============
@@ -22,7 +22,7 @@ updates will be released anymore. Without security updates, using a shirecoin
 wallet on a XP machine is irresponsible at least.
 
 In addition to that, with 0.12.x there have been varied reports of Shirecoin Core
-randomly crashing on Windows XP. It is [not clear](https://github.com/tricron/shirecoin/issues/7681#issuecomment-217439891)
+randomly crashing on Windows XP. It is [not clear](https://github.com/shirecoin/shirecoin/issues/7681#issuecomment-217439891)
 what the source of these crashes is, but it is likely that upstream
 libraries such as Qt are no longer being tested on XP.
 

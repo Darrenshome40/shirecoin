@@ -4,7 +4,7 @@ Shirecoin version 0.6.3 is now available for download at:
 This is a bug-fix release, with no new features.
 
 Please report bugs using the issue tracker at github:
-  https://github.com/tricron/shirecoin/issues
+  https://github.com/shirecoin/shirecoin/issues
 
 CHANGE SUMMARY
 

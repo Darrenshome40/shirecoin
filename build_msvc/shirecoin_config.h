@@ -259,7 +259,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://github.com/tricron/shirecoin/issues"
+#define PACKAGE_BUGREPORT "https://github.com/shirecoin/shirecoin/issues"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "Shirecoin Core"
@@ -271,7 +271,7 @@
 #define PACKAGE_TARNAME "shirecoin"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://shirecoin.com/"
+#define PACKAGE_URL "https://shirecoincore.org/"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.20.2"

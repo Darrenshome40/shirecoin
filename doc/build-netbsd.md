@@ -22,7 +22,7 @@ libtool
 pkg-config
 python37
 
-git clone https://github.com/tricron/shirecoin.git
+git clone https://github.com/shirecoin/shirecoin.git
 ```
 
 See [dependencies.md](dependencies.md) for a complete overview.

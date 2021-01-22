@@ -1,16 +1,16 @@
 Shirecoin Core version 0.17.0.1 is now available from:
 
-  <https://shirecoin.com/bin/shirecoin-core-0.17.0.1/>
+  <https://shirecoincore.org/bin/shirecoin-core-0.17.0.1/>
 
 This release provides a minor bug fix for 0.17.0.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/tricron/shirecoin/issues>
+  <https://github.com/shirecoin/shirecoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://shirecoin.com/en/list/announcements/join/>
+  <https://shirecoincore.org/en/list/announcements/join/>
 
 Notable changes
 ===============

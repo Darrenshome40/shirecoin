@@ -4,17 +4,17 @@ Shirecoin Core version *0.15.0.1* is now available from:
 
 and
 
-  <https://shirecoin.com/bin/shirecoin-core-0.15.0.1/>
+  <https://shirecoincore.org/bin/shirecoin-core-0.15.0.1/>
 
 This is a minor bug fix for 0.15.0.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/tricron/shirecoin/issues>
+  <https://github.com/shirecoin/shirecoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://shirecoin.com/en/list/announcements/join/>
+  <https://shirecoincore.org/en/list/announcements/join/>
 
 How to Upgrade
 ==============

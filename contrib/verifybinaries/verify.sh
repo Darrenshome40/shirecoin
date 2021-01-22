@@ -4,7 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 ###   This script attempts to download the signature file SHA256SUMS.asc from
-###   shirecoin.com and shirecoin.org and compares them.
+###   shirecoincore.org and shirecoin.org and compares them.
 ###   It first checks if the signature passes, and then downloads the files specified in
 ###   the file, and checks if the hashes of these files match those that are specified
 ###   in the signature file.
@@ -24,7 +24,7 @@ TMPFILE="hashes.tmp"
 
 SIGNATUREFILENAME="SHA256SUMS.asc"
 RCSUBDIR="test"
-HOST1="https://shirecoin.com"
+HOST1="https://shirecoincore.org"
 HOST2="https://shirecoin.org"
 BASEDIR="/bin/"
 VERSIONPREFIX="shirecoin-core-"
@@ -93,7 +93,7 @@ if ! WGETOUT=$(wget -N "$HOST1$BASEDIR$SIGNATUREFILENAME" 2>&1); then
 fi
 
 if ! WGETOUT=$(wget -N -O "$SIGNATUREFILENAME.2" "$HOST2$BASEDIR$SIGNATUREFILENAME" 2>&1); then
-   echo "shirecoin.org failed to provide signature file, but shirecoin.com did?"
+   echo "shirecoin.org failed to provide signature file, but shirecoincore.org did?"
    echo "wget output:"
    # shellcheck disable=SC2001
    echo "$WGETOUT"|sed 's/^/\t/g'
@@ -103,7 +103,7 @@ fi
 
 SIGFILEDIFFS="$(diff $SIGNATUREFILENAME $SIGNATUREFILENAME.2)"
 if [ "$SIGFILEDIFFS" != "" ]; then
-   echo "shirecoin.org and shirecoin.com signature files were not equal?"
+   echo "shirecoin.org and shirecoincore.org signature files were not equal?"
    clean_up $SIGNATUREFILENAME $SIGNATUREFILENAME.2
    exit 4
 fi

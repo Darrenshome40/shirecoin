@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Shirecoin
 Upstream-Contact: Satoshi Nakamoto <satoshin@gmx.com>
  irc://#shirecoin@freenode.net
-Source: https://github.com/tricron/shirecoin
+Source: https://github.com/shirecoin/shirecoin
 
 Files: *
 Copyright: 2009-2020, Shirecoin Core Developers
