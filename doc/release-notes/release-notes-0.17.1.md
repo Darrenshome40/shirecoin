@@ -1,6 +1,6 @@
 Shirecoin Core version 0.17.1 is now available from:
 
-  <https://shirecoincore.org/bin/shirecoin-core-0.17.1/>
+  <https://shirecoin.com/bin/shirecoin-core-0.17.1/>
 
 or through BitTorrent:
 
@@ -11,11 +11,11 @@ and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/shirecoin/shirecoin/issues>
+  <https://github.com/tricron/shirecoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://shirecoincore.org/en/list/announcements/join/>
+  <https://shirecoin.com/en/list/announcements/join/>
 
 How to Upgrade
 ==============

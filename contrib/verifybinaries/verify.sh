@@ -24,7 +24,7 @@ TMPFILE="hashes.tmp"
 
 SIGNATUREFILENAME="SHA256SUMS.asc"
 RCSUBDIR="test"
-HOST1="https://shirecoincore.org"
+HOST1="https://shirecoin.com"
 HOST2="https://shirecoin.org"
 BASEDIR="/bin/"
 VERSIONPREFIX="shirecoin-core-"

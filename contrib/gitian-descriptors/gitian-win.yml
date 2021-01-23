@@ -23,7 +23,7 @@ packages:
 - "ca-certificates"
 - "python3"
 remotes:
-- "url": "https://github.com/shirecoin/shirecoin.git"
+- "url": "https://github.com/tricron/shirecoin.git"
   "dir": "shirecoin"
 files: []
 script: |

@@ -402,7 +402,7 @@ class WalletTest(ShirecoinTestFramework):
             '-reindex',
             '-zapwallettxes=1',
             '-zapwallettxes=2',
-            # disabled until issue is fixed: https://github.com/shirecoin/shirecoin/issues/7463
+            # disabled until issue is fixed: https://github.com/tricron/shirecoin/issues/7463
             # '-salvagewallet',
         ]
         chainlimit = 6

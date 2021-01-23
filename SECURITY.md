@@ -3,7 +3,7 @@
 ## Supported Versions
 
 See our website for versions of Shirecoin Core that are currently supported with
-security updates: https://shirecoincore.org/en/lifecycle/#schedule
+security updates: https://shirecoin.com/en/lifecycle/#schedule
 
 ## Reporting a Vulnerability
 

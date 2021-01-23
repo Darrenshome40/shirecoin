@@ -7,7 +7,7 @@ This release include German, Spanish, Spanish-Castilian, Norwegian and Dutch tra
 https://www.transifex.net/projects/p/shirecoin/
 
 Please report bugs using the issue tracker at github:
-https://github.com/shirecoin/shirecoin/issues
+https://github.com/tricron/shirecoin/issues
 
 For Ubuntu users, there is a new ppa maintained by Matt Corallo which you can add to your system so that it will automatically keep shirecoin up-to-date.  Just type "sudo apt-add-repository ppa:shirecoin/shirecoin" in your terminal, then install the shirecoin-qt package.
 

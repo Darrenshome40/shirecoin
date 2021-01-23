@@ -4,7 +4,7 @@ http://sourceforge.net/projects/shirecoin/files/Shirecoin/shirecoin-0.5.2/
 This is a bugfix-only release based on 0.5.1.
 
 Please report bugs using the issue tracker at github:
-https://github.com/shirecoin/shirecoin/issues
+https://github.com/tricron/shirecoin/issues
 
 Stable source code is hosted at Gitorious:
 http://gitorious.org/shirecoin/shirecoind-stable/archive-tarball/v0.5.2#.tar.gz

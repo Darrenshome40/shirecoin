@@ -7,7 +7,7 @@ bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/shirecoin/shirecoin/issues
+  https://github.com/tricron/shirecoin/issues
 
 Upgrading and downgrading
 =========================
@@ -230,7 +230,7 @@ bindings such as [python-shirecoinlib](https://pypi.python.org/pypi/python-shire
 alternative node implementations.
 
 This library is called `libshirecoinconsensus.so` (or, `.dll` for Windows).
-Its interface is defined in the C header [shirecoinconsensus.h](https://github.com/shirecoin/shirecoin/blob/0.10/src/script/shirecoinconsensus.h).
+Its interface is defined in the C header [shirecoinconsensus.h](https://github.com/tricron/shirecoin/blob/0.10/src/script/shirecoinconsensus.h).
 
 In its initial version the API includes two functions:
 

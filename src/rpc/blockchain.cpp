@@ -2294,7 +2294,7 @@ UniValue dumptxoutset(const JSONRPCRequest& request)
         // use below this block.
         //
         // See discussion here:
-        //   https://github.com/shirecoin/shirecoin/pull/15606#discussion_r274479369
+        //   https://github.com/tricron/shirecoin/pull/15606#discussion_r274479369
         //
         LOCK(::cs_main);
 
