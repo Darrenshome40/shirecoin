@@ -45,8 +45,8 @@ config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. Fo
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
 	HiddenServiceDir /var/lib/tor/shirecoin-service/
-	HiddenServicePort 8333 127.0.0.1:8333
-	HiddenServicePort 18333 127.0.0.1:18333
+	HiddenServicePort 8333 127.0.0.1:7333
+	HiddenServicePort 18333 127.0.0.1:17333
 
 The directory can be different of course, but (both) port numbers should be equal to
 your shirecoind's P2P listen port (8333 by default).
