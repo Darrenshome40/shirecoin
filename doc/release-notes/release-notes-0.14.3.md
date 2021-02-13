@@ -1,6 +1,6 @@
 Shirecoin Core version *0.14.3* is now available from:
 
-  <https://shirecoin.org/bin/shirecoin-core-0.14.3/>
+  <https://www.shirecoin.org/bin/shirecoin-core-0.14.3/>
 
 This is a new minor version release, including various bugfixes and
 performance improvements.
@@ -11,7 +11,7 @@ Please report bugs using the issue tracker at github:
 
 To receive security and update notifications, please subscribe to:
 
-  <https://shirecoin.org/en/list/announcements/join/>
+  <https://www.shirecoin.org/en/list/announcements/join/>
 
 Compatibility
 ==============

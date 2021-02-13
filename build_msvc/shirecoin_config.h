@@ -271,7 +271,7 @@
 #define PACKAGE_TARNAME "shirecoin"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://shirecoin.org/"
+#define PACKAGE_URL "https://www.shirecoin.org/"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.20.2"

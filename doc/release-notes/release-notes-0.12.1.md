@@ -1,6 +1,6 @@
 Shirecoin Core version 0.12.1 is now available from:
 
-  <https://shirecoin.org/bin/shirecoin-core-0.12.1/>
+  <https://www.shirecoin.org/bin/shirecoin-core-0.12.1/>
 
 This is a new minor version release, including the BIP9, BIP68 and BIP112
 softfork, various bugfixes and updated translations.

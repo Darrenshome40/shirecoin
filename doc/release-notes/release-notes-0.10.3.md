@@ -1,6 +1,6 @@
 Shirecoin Core version 0.10.3 is now available from:
 
-  <https://shirecoin.org/bin/shirecoin-core-0.10.3/>
+  <https://www.shirecoin.org/bin/shirecoin-core-0.10.3/>
 
 This is a new minor version release, bringing security fixes and translation 
 updates. It is recommended to upgrade to this version as soon as possible.

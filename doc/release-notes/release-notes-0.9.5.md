@@ -1,6 +1,6 @@
 Shirecoin Core version 0.9.5 is now available from:
 
-  https://shirecoin.org/bin/0.9.5/
+  https://www.shirecoin.org/bin/0.9.5/
 
 This is a new minor version release, with the goal of backporting BIP66. There
 are also a few bug fixes and updated translations. Upgrading to this release is

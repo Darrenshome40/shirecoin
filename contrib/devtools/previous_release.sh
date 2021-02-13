@@ -137,7 +137,7 @@ pushd "$TARGET" || exit 1
         else
             BIN_PATH="bin/shirecoin-core-${tag:1}"
         fi
-        URL="https://shirecoin.org/$BIN_PATH/shirecoin-${tag:1}-$PLATFORM.tar.gz"
+        URL="https://www.shirecoin.org/$BIN_PATH/shirecoin-${tag:1}-$PLATFORM.tar.gz"
         echo "Fetching: $URL"
         if ! curl -O -f $URL; then
             echo "Download failed."

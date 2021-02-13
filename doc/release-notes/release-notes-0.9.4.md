@@ -1,6 +1,6 @@
 Shirecoin Core version 0.9.4 is now available from:
 
-  https://shirecoin.org/bin/0.9.4/
+  https://www.shirecoin.org/bin/0.9.4/
 
 This is a new minor version release, bringing only bug fixes and updated
 translations. Upgrading to this release is recommended.
@@ -25,7 +25,7 @@ various operating system maintainers. Review by Gregory Maxwell determined that
 this update is incompatible with the Shirecoin system and could lead to consensus
 forks.
 
-Shirecoin Core released binaries from https://shirecoin.org are unaffected,
+Shirecoin Core released binaries from https://www.shirecoin.org are unaffected,
 as are any built with the gitian deterministic build system.
 
 However, if you are running either
