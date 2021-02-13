@@ -13,7 +13,7 @@ NO_QR ?=
 NO_WALLET ?=
 NO_ZMQ ?=
 NO_UPNP ?=
-FALLBACK_DOWNLOAD_PATH ?= https://shirecoin.com/depends-sources
+FALLBACK_DOWNLOAD_PATH ?= https://shirecoin.org/depends-sources
 
 BUILD = $(shell ./config.guess)
 HOST ?= $(BUILD)

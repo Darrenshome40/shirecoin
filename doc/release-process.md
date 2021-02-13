@@ -361,7 +361,7 @@ shirecoin.org (see below for shirecoin.org update instructions).
 
   - shirecoin-dev and shirecoin-core-dev mailing list
 
-  - Shirecoin Core announcements list https://shirecoin.com/en/list/announcements/join/
+  - Shirecoin Core announcements list https://shirecoin.org/en/list/announcements/join/
 
   - Update title of #shirecoin on Freenode IRC
 
